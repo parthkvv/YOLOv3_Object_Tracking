@@ -73,4 +73,4 @@ object_tracker.py:
     (default: 0.5)
     (a float)
 ```
-Source :https://github.com/theAIGuysCode/yolov3_deepsort
+
