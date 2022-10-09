@@ -18,7 +18,7 @@ python load_weights.py --weights ./weights/<YOUR CUSTOM WEIGHTS FILE> --output .
 
 After executing one of the above lines, you should see proper .tf files in your weights folder. You are now ready to run object tracker.
 
-#### Run
+### Run
 Now you can run the object tracker for whichever model you have created, pretrained, tiny, or custom.
 ```
 # yolov3 on video
@@ -35,7 +35,7 @@ python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/res
 ```
 The output flag saves your object tracker results as an avi file for you to watch back. It is not necessary to have the flag if you don't want to save the resulting video.
 
-#### Command Line Arguments 
+### Command Line Arguments 
 ```
 load_weights.py:
   --output: path to output
