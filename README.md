@@ -1,6 +1,6 @@
 ### Environment Preparation
 
-Installing required dependencies: 
+Install required dependencies: 
 
 ```
 pip install -r requirements.txt
