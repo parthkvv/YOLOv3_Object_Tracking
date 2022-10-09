@@ -1,4 +1,4 @@
-### Loading Weight Files 
+### Pretrained Models 
 pip install -r requirements.txt
 
 Download the yolov3 weights by clicking [here](https://pjreddie.com/media/files/yolov3.weights) and then save them to the weights folder.
@@ -18,7 +18,7 @@ python load_weights.py --weights ./weights/<YOUR CUSTOM WEIGHTS FILE> --output .
 
 After executing one of the above lines, you should see proper .tf files in your weights folder. You are now ready to run object tracker.
 
-#### Running the Object Tracker
+#### Run
 Now you can run the object tracker for whichever model you have created, pretrained, tiny, or custom.
 ```
 # yolov3 on video
