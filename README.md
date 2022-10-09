@@ -1,4 +1,4 @@
-
+### Loading Weight Files 
 pip install -r requirements.txt
 
 Download the yolov3 weights by clicking [here](https://pjreddie.com/media/files/yolov3.weights) and then save them to the weights folder.
@@ -35,7 +35,7 @@ python object_tracker.py --video ./data/video/test.mp4 --output ./data/video/res
 ```
 The output flag saves your object tracker results as an avi file for you to watch back. It is not necessary to have the flag if you don't want to save the resulting video.
 
-#### Args for command line execution
+#### Command Line Arguments 
 ```
 load_weights.py:
   --output: path to output
