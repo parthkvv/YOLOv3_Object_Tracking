@@ -1,9 +1,12 @@
-### Pretrained Models 
+### Setting Environment
+
 Installing required dependencies: 
 
 ```
 pip install -r requirements.txt
 ```
+
+### Pretrained Models
 
 Download the yolov3 weights by clicking [here](https://pjreddie.com/media/files/yolov3.weights) and then save them to the weights folder.
 
